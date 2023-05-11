@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+.email__list {
+    background-color: #FFFAF8 2;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: row;
+    margin: 3rem 0rem 0rem 0rem;
+}
+
+.email__content {
+    margin: 5rem 16rem;
+}
+
+.email__content h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 40px;
+    color: #1E1E1E;
+    padding-top: 1rem;
+    text-align: center;
+}
+
+.email__content p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 550;
+    font-size: 20px;
+    line-height: 24.38px;
+    color: #1F1F1F;
+    max-width: 450px;
+    text-align: center;
+}
+
+.email__content input {
+    height: 5.2vh;
+    width: 30vh;
+    margin-right: -5px;
+    margin-top: 10px;
+}
+
+.email__content button {
+    width: 160px;
+    height: 37px;
+    font-size: large;
+    font-weight: 100;
+    border-radius: 1px;
+    border-color: #F8A663;
+    color: whitesmoke;
+    cursor: pointer;
+    background: linear-gradient(277.87deg, #F47A15 -2.6%, #F8A663 100%);
+}
+
+.email__image {
+    justify-content: end;
+    height: 50vh;
+    width: 30vh;
+}

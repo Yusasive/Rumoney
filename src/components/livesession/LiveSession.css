@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+.Live {
+    margin: 2rem 0;
+}
+
+.Live h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 40px;
+    letter-spacing: -0.04em;
+    color: #1E1E1E;
+    padding-top: 1rem;
+    text-align: center;
+    margin: 0 30%;
+}
+
+.Live-image {
+    margin-left: 10%;
+}
+
+.Live-image img {
+    width: 500px;
+    height: 350px;
+}

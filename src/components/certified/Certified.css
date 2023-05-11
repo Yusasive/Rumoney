@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+.certified h5 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.certified-image {
+    justify-content: center;
+    margin: 2rem 38%;
+}
+
+.certified img {
+    height: 35px;
+    margin: 0 0.7rem;
+}
