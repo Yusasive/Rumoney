@@ -1,11 +1,25 @@
-import React from 'react'
+import React from 'react';
+import Carousel from "react-multi-carousel";
+import "react-multi-carousel/lib/styles.css";
+import Item from "./Item";
+import { productData, responsive } from "./Data";
 
-const Testimonial = () => {
+export default function Testimonial() {
+  const product = productData.map((item) => (
+    <Item
+      name={item.name}
+      url={item.imageurl}
+      price={item.price}
+      description={item.description}
+    />
+  ));
+
   return (
-    <div>
-      
+    <div className="App">
+      <h1>React multi carousel</h1>
+      <Carousel showDots={true} responsive={responsive}>
+        {product}
+      </Carousel>
     </div>
-  )
+  );
 }
-
-export default Testimonial;

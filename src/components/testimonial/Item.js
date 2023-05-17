@@ -1,13 +1,15 @@
-import styled from "styled-components";
+import React from "react";
 
-export default styled.div`
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 250px;
-  width: 100%;
-  background-color: #00008B;
-  color: #fff;
-  margin: 0 15px;
-  font-size: 4em;
-`;
+export default function Item(props) {
+  return (
+    <div className="card">
+      <img  className="product--image" src={props.url} alt="Testimonial Images" />
+      <h2>{props.name}</h2>
+      <p className="price">{props.price}</p>
+      <p>{props.description}</p>
+      <p>
+        <button>Add to Cart</button>
+      </p>
+    </div>
+  );
+}
