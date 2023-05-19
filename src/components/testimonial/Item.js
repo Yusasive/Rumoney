@@ -1,11 +1,10 @@
 import React from "react";
-
+import './Testimonial.css'
 export default function Item(props) {
   return (
     <div className="card">
       <img  className="product--image" src={props.url} alt="Testimonial Images" />
-      <h2>{props.name}</h2>
-      <p className="price">{props.price}</p>
+      <h4>{props.name}</h4>
       <p>{props.description}</p>
       
     </div>

@@ -3,6 +3,7 @@ import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import Item from "./Item";
 import { productData, responsive } from "./Data";
+import './Testimonial.css';
 
 export default function Testimonial() {
   const product = productData.map((item) => (
@@ -15,8 +16,8 @@ export default function Testimonial() {
   ));
 
   return (
-    <div className="App">
-      <h1>React multi carousel</h1>
+    <div className="Testimonial">
+      <h1>What Our Students are saying</h1>
       <Carousel showDots={true} responsive={responsive}>
         {product}
       </Carousel>
