@@ -1,8 +1,7 @@
 import React from 'react';
 import FAQs from './faqs/FAQs';
-import NeedHelp from './NeedHelp';
 import './Contact.css';
-import ContactForm from './ContactForm';
+import ContactUs from './ContactUs';
 const Contact = () => {
   return (
     <div className='contact'>  
@@ -11,8 +10,8 @@ const Contact = () => {
       </div>
       <FAQs />
       <div className='contact__down'>
-        <NeedHelp />
-        <ContactForm />
+        
+        <ContactUs />
       </div>
     </div>
   )
