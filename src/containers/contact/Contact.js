@@ -1,5 +1,5 @@
 import React from 'react';
-import FAQs from './faqs/FAQs';
+import FAQs from './faqs/FAQs'; 
 import './Contact.css';
 import ContactUs from './ContactUs';
 const Contact = () => {

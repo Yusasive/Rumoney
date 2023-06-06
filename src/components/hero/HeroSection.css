@@ -84,24 +84,49 @@
         padding-top: 1rem;
     }
     
-    @media screen and (max-width: 1050px) {
-        .hero {
-            flex-direction: column;
-            margin: 30px;
-        }
+    @media screen and (max-width: 1024px) {
         .hero-content {
             margin: 1rem;
         }
     }
     
-    @media screen and (max-width: 650px) {
-        .header-content h1 {
-            font-size: 48px;
-            line-height: 60px;
+    @media screen and (max-width: 768px) {
+        .hero {
+            flex-direction: column;
+            margin: auto;
         }
-        .hero -content p {
-            font-size: 20px;
-            line-height: 24px;
+        .hero-content {
+            height: 306px;
+            width: auto;
+            margin: 1rem;
+            padding-top: 2.5rem;
+        }
+        .hero-content h1 {
+            font-weight: 600;
+            font-size: 45px;
+            line-height: 15px;
+            margin: 3rem 0.2rem 0.2rem 0.2rem;
+        }
+        .hero-content span {
+            font-weight: 600;
+            font-size: 45px;
+        }
+        .hero-content p {
+            font-weight: 500;
+            font-size: 15px;
+            line-height: 15px;
+            margin: 0rem 0.2rem;
+        }
+        .hero-image1 {
+            width: 60%;
+            height: 50%;
+            margin-left: 3rem;
+            padding-top: 1rem;
+        }
+        .hero-image {
+            margin-right: 0;
+            margin-bottom: 1rem;
+            width: 80%;
         }
     }
     
@@ -109,12 +134,37 @@
         .hero {
             margin: auto;
         }
+        .hero-content {
+            height: 306px;
+            width: auto;
+            margin: 0.6rem;
+            padding-top: 2.5rem;
+        }
         .hero-content h1 {
-            font-size: 40px;
-            line-height: 48px;
+            font-weight: 600;
+            font-size: 35px;
+            line-height: 12px;
+            margin: 3em 0.2rem 0.2rem 0.2rem;
+        }
+        .hero-content span {
+            font-weight: 600;
+            font-size: 35px;
         }
         .hero-content p {
-            font-size: 20px;
-            line-height: 24px;
+            font-weight: 500;
+            font-size: 12px;
+            line-height: 17px;
+            margin: 0rem 0.2rem;
+        }
+        .hero-image1 {
+            width: 60%;
+            height: 50%;
+            margin-left: 2rem;
+            padding-top: 1rem;
+        }
+        .hero-image {
+            margin-right: 0;
+            margin-bottom: 1rem;
+            width: 70%;
         }
     }
