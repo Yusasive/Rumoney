@@ -9,14 +9,18 @@ import Jobberman from '../../assets/icons/JobberMan.png';
 const Certified = () => {
   return (
     <div className='certified'>
-      <h5>Our Students Are Certified By</h5>
+
+<div>      
+  <h2>Our Students Are Certified By</h2>
+</div>
     <div className="certified-image">  
     <img src={Google} alt="Google" />
       <img src={Meta} alt="Meta" />
       <img src={Microsoft} alt="Microsoft" />
       <img src={Jobberman} alt="Jobberman" /></div>
+
     </div>
   )
 }
 
-export default Certified
+export default Certified;

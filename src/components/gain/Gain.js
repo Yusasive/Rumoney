@@ -11,7 +11,7 @@ const Gain = () => {
     <div className='gain-content'>
       <h1>What you stand to gain as a <span>student</span></h1>
       <p>Rumoney is the world’s biggest Digital marketing learning community where we have global experts to empower students on relevant digital skills for FREE</p>
-      <button>Start Learning Now</button>
+      <button className='button1'>Start Learning Now</button>
     </div>
       <div className='gain-grid'>
         <div className="grid a">

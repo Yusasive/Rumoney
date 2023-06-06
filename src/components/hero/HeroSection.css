@@ -1,170 +1,197 @@
-    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
-    .hero {
-        flex: 1;
-        display: flex;
-        justify-content: center;
-        align-items: flex-start;
-        flex-direction: row;
-    }
-    
-    .hero-content {
-        height: 306px;
-        width: 652px;
-        margin: 2rem 2rem;
-        padding-top: 2.5rem;
-    }
-    
-    .hero-content h1 {
-        font-family: 'Montserrat', sans-serif;
-        font-weight: 600;
-        font-size: 55px;
-        line-height: 68.26px;
-        letter-spacing: -0.04em;
-        color: #1E1E1E;
-        margin: 1rem 2rem;
-    }
-    
-    .hero-content span {
-        color: #F47A15;
-        font-family: 'Montserrat', sans-serif;
-        font-weight: 600;
-        font-size: 54px;
-        line-height: 68.26px;
-    }
-    
-    .hero-content p {
-        font-family: 'Montserrat', sans-serif;
-        font-weight: 500;
-        font-size: 21px;
-        line-height: 29.26px;
-        color: #1F1F1F;
-        margin: 1rem 2rem;
-    }
-    
-    .hero-button1 {
-        width: 130px;
-        height: 37px;
-        margin-right: 1rem;
-        margin-left: 2rem;
-        font-family: 'Montserrat', sans-serif;
-        border-width: 1px;
-        border-color: #F8A663;
-        color: whitesmoke;
-        cursor: pointer;
-        background: linear-gradient(277.87deg, #F47A15 -2.6%, #F8A663 100%);
-    }
-    
-    .hero-button2 {
-        width: 130px;
-        height: 37px;
-        margin-right: 1rem;
-        font-family: 'Montserrat', sans-serif;
-        border-width: 1px;
-        border: px;
-        border-color: #F8A663;
-        color: #F47A15;
-        cursor: pointer;
-        background-color: #fff;
-    }
-    
-    .hero-image {
-        flex: 1;
-        margin-right: 0;
-        background-image: url('../../assets/images/pattern.png');
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-        background-position: right;
-        margin-bottom: 4rem;
-    }
-    
-    .hero-image1 {
-        width: 60%;
-        height: 50%;
-        margin-left: 7rem;
-        padding-top: 1rem;
-    }
-    
-    @media screen and (max-width: 1024px) {
-        .hero-content {
-            margin: 1rem;
-        }
-    }
-    
-    @media screen and (max-width: 1023px) {
-        .hero {
-            flex-direction: column;
-            margin: auto;
-        }
-        .hero-content {
-            height: 306px;
-            width: auto;
-            margin: 1rem;
-            padding-top: 2.5rem;
-        }
-        .hero-content h1 {
-            font-weight: 600;
-            font-size: 45px;
-            line-height: 15px;
-            margin: 3rem 0.2rem 0.2rem 0.2rem;
-        }
-        .hero-content span {
-            font-weight: 600;
-            font-size: 45px;
-        }
-        .hero-content p {
-            font-weight: 500;
-            font-size: 15px;
-            line-height: 15px;
-            margin: 0rem 0.2rem;
-        }
-        .hero-image1 {
-            width: 60%;
-            height: 50%;
-            margin-left: 3rem;
-            padding-top: 1rem;
-        }
-        .hero-image {
-            margin-right: 0;
-            margin-bottom: 1rem;
-            width: 80%;
-        }
-    }
-    
-    @media screen and (max-width: 750px) {
-        .hero {
-            margin: auto;
-        }
-        .hero-content {
-            height: 250px;
-            width: auto;
-            margin: 0.6rem;
-            padding-top: 1rem;
-        }
-        .hero-content h1 {
-            font-weight: 600;
-            font-size: 45px;
-            line-height: 12px;
-            margin: 2em 0.2rem 0.2rem 0.2rem;
-        }
-        .hero-content span {
-            font-weight: 600;
-            font-size: 45px;
-        }
-        .hero-content p {
-            font-weight: 500;
-            font-size: 17px;
-            line-height: 17px;
-            margin: 0rem 0.2rem;
-        }
-        .hero-image1 {
-            width: 60%;
-            height: 50%;
-            margin-left: 5rem;
-            padding-top: 0.5rem;
-        }
-        .hero-image {
-            margin-right: 0;
-            margin-bottom: 1rem;
-            width: 70%;
-        }
-    }
+                @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+                .hero {
+                    flex: 1;
+                    display: flex;
+                    justify-content: center;
+                    align-items: flex-start;
+                    flex-direction: row;
+                }
+                
+                .hero-content {
+                    height: 306px;
+                    width: 652px;
+                    margin: 2rem 2rem;
+                    padding-top: 2.5rem;
+                }
+                
+                .hero-content h1 {
+                    font-family: 'Montserrat', sans-serif;
+                    font-weight: 600;
+                    font-size: 55px;
+                    line-height: 68.26px;
+                    letter-spacing: -0.04em;
+                    color: #1E1E1E;
+                    margin: 1rem 2rem;
+                }
+                
+                .hero-content span {
+                    color: #F47A15;
+                    font-family: 'Montserrat', sans-serif;
+                    font-weight: 600;
+                    font-size: 54px;
+                    line-height: 68.26px;
+                }
+                
+                .hero-content p {
+                    font-family: 'Montserrat', sans-serif;
+                    font-weight: 500;
+                    font-size: 21px;
+                    line-height: 29.26px;
+                    color: #1F1F1F;
+                    margin: 1rem 2rem;
+                }
+                
+                .hero-button1 {
+                    width: 130px;
+                    height: 37px;
+                    margin-right: 1rem;
+                    margin-left: 2rem;
+                    font-family: 'Montserrat', sans-serif;
+                    border-width: 1px;
+                    border-color: #F8A663;
+                    color: whitesmoke;
+                    cursor: pointer;
+                    background: linear-gradient(277.87deg, #F47A15 -2.6%, #F8A663 100%);
+                }
+                
+                .hero-button2 {
+                    width: 130px;
+                    height: 37px;
+                    margin-right: 1rem;
+                    font-family: 'Montserrat', sans-serif;
+                    border-width: 1px;
+                    border: px;
+                    border-color: #F8A663;
+                    color: #F47A15;
+                    cursor: pointer;
+                    background-color: #fff;
+                }
+                
+                .hero-image {
+                    flex: 1;
+                    margin-right: 0;
+                    background-image: url('../../assets/images/pattern.png');
+                    background-repeat: no-repeat;
+                    background-attachment: fixed;
+                    background-position: right;
+                    margin-bottom: 4rem;
+                }
+                
+                .hero-image1 {
+                    width: 60%;
+                    height: 50%;
+                    margin-left: 7rem;
+                    padding-top: 1rem;
+                }
+                
+                @media screen and (max-width: 1024px) {
+                    .hero-content {
+                        margin: 1rem;
+                    }
+                }
+                
+                @media screen and (max-width: 960px) {
+                    .hero {
+                        flex-direction: column;
+                        margin: auto;
+                    }
+                    .hero-content {
+                        height: 306px;
+                        width: auto;
+                        margin: 1rem;
+                        padding-top: 1.5rem;
+                    }
+                    .hero-content h1 {
+                        font-weight: 600;
+                        font-size: 50px;
+                        line-height: 15px;
+                        margin: 5rem 0.2rem 0.2rem 0.2rem;
+                    }
+                    .hero-content span {
+                        font-weight: 600;
+                        font-size: 50px;
+                    }
+                    .hero-content p {
+                        font-weight: 300;
+                        font-size: 30px;
+                        line-height: 25px;
+                        margin: 0.5rem 0.2rem;
+                    }
+                    .hero-image1 {
+                        width: 60%;
+                        height: 50%;
+                        margin-left: 3rem;
+                        padding-top: 1rem;
+                    }
+                    .hero-image {
+                        margin-right: 0;
+                        margin-bottom: 1rem;
+                        width: 80%;
+                    }
+                    .hero-button1,
+                    .hero-button2 {
+                        width: 37%;
+                        height: 18%;
+                        margin-right: 0.5rem;
+                        border-width: 1px;
+                        margin-top: 1rem;
+                    }
+                }
+                
+                @media screen and (max-width: 750px) {
+                    .hero {
+                        margin: auto;
+                    }
+                    .hero-content {
+                        height: 250px;
+                        width: auto;
+                        margin: 0.6rem;
+                        padding-top: 1rem;
+                    }
+                    .hero-content h1 {
+                        font-weight: 600;
+                        font-size: 45px;
+                        line-height: 12px;
+                        margin: 2em 0.2rem 0.2rem 0.2rem;
+                    }
+                    .hero-content span {
+                        font-weight: 600;
+                        font-size: 45px;
+                    }
+                    .hero-content p {
+                        font-weight: 500;
+                        font-size: 17px;
+                        line-height: 17px;
+                        margin: 0rem 0.2rem 2rem 0.2rem;
+                    }
+                    .hero-image1 {
+                        width: 60%;
+                        height: 50%;
+                        margin-left: 5rem;
+                        padding-top: 0.5rem;
+                    }
+                    .hero-image {
+                        margin-top: 5rem;
+                        margin-bottom: 1rem;
+                        width: 70%;
+                    }
+                    .hero-button1,
+                    .hero-button2 {
+                        width: 35%;
+                        height: 15%;
+                        margin-right: 0.5rem;
+                        border-width: 1px;
+                    }
+                }
+                
+                @media screen and (max-width: 415px) {
+                    .hero-content h1 {
+                        font-weight: 600;
+                        font-size: 35px;
+                        line-height: 12px;
+                    }
+                    .hero-content span {
+                        font-weight: 600;
+                        font-size: 40px;
+                    }
+                }

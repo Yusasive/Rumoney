@@ -1,19 +1,42 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
-.certified h5 {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 24px;
-    font-weight: 600;
-    line-height: 29px;
-    letter-spacing: 0em;
-    text-align: center;
-}
-
-.certified-image {
-    justify-content: center;
-    margin: 2rem 38%;
-}
-
-.certified img {
-    height: 35px;
-    margin: 0 0.7rem;
-}
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+        .certified h2 {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 24px;
+            font-weight: 600;
+            line-height: 29px;
+            letter-spacing: 0em;
+            text-align: center;
+        }
+        
+        .certified-image {
+            justify-content: center;
+            margin: 2rem;
+            padding-left: 40%;
+        }
+        
+        .certified img {
+            height: 35px;
+            margin: 0 0.7rem;
+        }
+        
+        @media screen and (max-width: 1023px) {
+            .certified-image {
+                padding-left: 35%;
+            }
+            .certified img {
+                height: 30px;
+                margin: 0 0.7rem;
+            }
+        }
+        
+        @media screen and (max-width: 767px) {
+            .certified-image {
+                padding-left: 30%;
+            }
+        }
+        
+        @media screen and (max-width: 450px) {
+            .certified-image {
+                padding-left: 16%;
+            }
+        }
