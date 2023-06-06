@@ -90,7 +90,7 @@
         }
     }
     
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 1023px) {
         .hero {
             flex-direction: column;
             margin: auto;
@@ -130,37 +130,37 @@
         }
     }
     
-    @media screen and (max-width: 490px) {
+    @media screen and (max-width: 750px) {
         .hero {
             margin: auto;
         }
         .hero-content {
-            height: 306px;
+            height: 250px;
             width: auto;
             margin: 0.6rem;
-            padding-top: 2.5rem;
+            padding-top: 1rem;
         }
         .hero-content h1 {
             font-weight: 600;
-            font-size: 35px;
+            font-size: 45px;
             line-height: 12px;
-            margin: 3em 0.2rem 0.2rem 0.2rem;
+            margin: 2em 0.2rem 0.2rem 0.2rem;
         }
         .hero-content span {
             font-weight: 600;
-            font-size: 35px;
+            font-size: 45px;
         }
         .hero-content p {
             font-weight: 500;
-            font-size: 12px;
+            font-size: 17px;
             line-height: 17px;
             margin: 0rem 0.2rem;
         }
         .hero-image1 {
             width: 60%;
             height: 50%;
-            margin-left: 2rem;
-            padding-top: 1rem;
+            margin-left: 5rem;
+            padding-top: 0.5rem;
         }
         .hero-image {
             margin-right: 0;
