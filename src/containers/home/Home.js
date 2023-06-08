@@ -1,5 +1,5 @@
 import React from 'react';
-import {HeroSection, Certified, Gain, CTA, Testimonial, EmailList} from '../../components';
+import {HeroSection, Certified, Gain, CTA, Testimonial, EmailList, LiveSession} from '../../components';
 const Home = () => {
   return (
     <div>
@@ -8,6 +8,7 @@ const Home = () => {
     <Gain />
     <CTA />
     <Testimonial />
+    <LiveSession />
     <EmailList />
     </div>
   )
