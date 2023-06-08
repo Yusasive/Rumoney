@@ -17,7 +17,7 @@ const Footer = () =>
             <div className="col-md-3 mb-md-0 mb-3">
                 <h5 className="text-uppercase">Quick Links</h5>
                 <ul  class="text-white " className="list-unstyled">
-                <li><Link class="text-muted text-decoration-none" to='/students'> Students</Link></li>
+                <li><Link class="text-muted text-decoration-none" to='/'> Students</Link></li>
                 <li><Link class="text-muted text-decoration-none" to='/hiretalents'> Hire Talents</Link></li>
                 <li><Link class="text-muted text-decoration-none" to='/courses'> Courses</Link></li>
                 <li><Link class="text-muted text-decoration-none" to='/community'> Communities</Link></li>
@@ -26,8 +26,9 @@ const Footer = () =>
             </div>
 
             <div className="col-md-3 mb-md-0 mb-3">
+            <h5 className="text-uppercase">Who We Are</h5>
                    <ul className="list-unstyled">
-                   <li>  <Link class="text-muted text-decoration-none" to='/about text-decoration-none'> About Us</Link></li>
+                   <li>  <Link class="text-muted text-decoration-none" to='/about'> About Us</Link></li>
                    <li>  <Link class="text-muted text-decoration-none" to='/contact'> Contact Us</Link></li>
                     <li>  <Link class="text-muted text-decoration-none" to='/contact'> Privacy Policy</Link></li>
                     <li><Link class="text-muted text-decoration-none"  to='/contact'> Terms and Condition</Link></li>

@@ -1,252 +1,355 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
-
-/* ABOUT US HEADER CSS*/
-
-.about {
-    margin: 0;
-}
-
-.about__header {
-    align-items: flex-start;
-    background-image: url('../../assets/images/Herobanner.png');
-    display: flex;
-    justify-content: center;
-    padding: 112px 577px;
-    position: relative;
-    margin: 2rem 0rem;
-}
-
-.about__content {
-    font-family: 'Montserrat', sans-serif;
-    line-height: normal;
-    letter-spacing: 0;
-    margin-left: -27.00px;
-    margin-top: -1.00px;
-    position: relative;
-    width: fit-content;
-    color: #FFFFFF;
-}
-
-
-/* VISION AND MISSION CSS*/
-
-.vision {
-    align-items: flex-start;
-    background-color: #FFFFFF;
-    display: flex;
-    justify-content: center;
-    position: relative;
-    margin: 2rem 0rem;
-}
-
-.vision__mission {
-    margin: 2rem 4rem;
-    width: 507px;
-}
-
-.vision__mission h1 {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 600;
-    font-size: 30px;
-    line-height: 40px;
-    letter-spacing: -0.04em;
-    color: #1E1E1E;
-    padding-top: 1rem;
-    text-align: left;
-    margin: 1.5rem 0;
-}
-
-.vision__mission p {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 18px;
-    color: #1F1F1F;
-}
-
-.pattern {
-    margin-left: -9.5rem;
-    height: 400px;
-    width: 140px;
-}
-
-.rumoney1 {
-    height: 415px;
-    width: 415px;
-    margin-top: 1rem;
-}
-
-
-/* UNIQUE CSS*/
-
-.unique {
-    align-items: flex-start;
-    background-color: #FFFFFF;
-    display: flex;
-    justify-content: center;
-    position: relative;
-    margin: 5rem 0rem 2rem 0rem;
-}
-
-.unique__content1 button {
-    width: 160px;
-    height: 37px;
-    font-size: large;
-    font-weight: 100;
-    border-radius: 1px;
-    border-color: #F8A663;
-    color: whitesmoke;
-    cursor: pointer;
-    margin: 0.5rem 0 1.5rem 3rem;
-    background: linear-gradient(277.87deg, #F47A15 -2.6%, #F8A663 100%);
-}
-
-.unique__content1 h1 {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 600;
-    font-size: 32px;
-    line-height: 40px;
-    letter-spacing: -0.04em;
-    color: #1E1E1E;
-    padding-top: 1rem;
-    text-align: left;
-    margin: 1.5rem 0 1.5rem 3rem;
-}
-
-.unique__content1 p {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 600;
-    font-size: 14px;
-    line-height: 18px;
-    color: #1F1F1F;
-    margin: 1.5rem 0 0.5rem 3rem;
-}
-
-.unique__content2 {
-    margin-top: 7rem;
-}
-
-.unique__content2 p {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 600;
-    font-size: 14px;
-    line-height: 18px;
-    color: #1F1F1F;
-    margin: 1.5rem 0 0.5rem 2rem;
-}
-
-.unique__content2 button {
-    display: none;
-    width: 160px;
-    height: 37px;
-    font-size: large;
-    font-weight: 100;
-    border-radius: 1px;
-    border-color: #F8A663;
-    color: whitesmoke;
-    cursor: pointer;
-    margin: 0.5rem 0 1.5rem 2rem;
-    background: linear-gradient(277.87deg, #F47A15 -2.6%, #F8A663 100%);
-}
-
-.prosperity {
-    width: 500px;
-    height: 500px;
-    margin-top: -5rem;
-    background-image: url('../../assets/images/pattern.png');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: right;
-}
-
-
-/* UNIQUE SME CSS*/
-
-.unique__sme {
-    align-items: flex-start;
-    background-color: #FFFFFF;
-    display: flex;
-    justify-content: center;
-    position: relative;
-    margin: 5rem 0rem 2rem 0rem;
-}
-
-.unique__sme__content1 button {
-    width: 160px;
-    height: 37px;
-    font-size: large;
-    font-weight: 100;
-    border-radius: 1px;
-    border-color: #F8A663;
-    color: whitesmoke;
-    cursor: pointer;
-    margin: 0.5rem 0 1.5rem 3rem;
-    background: linear-gradient(277.87deg, #F47A15 -2.6%, #F8A663 100%);
-}
-
-.unique__sme__content1 h1 {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 600;
-    font-size: 32px;
-    line-height: 40px;
-    letter-spacing: -0.04em;
-    color: #1E1E1E;
-    padding-top: 1rem;
-    text-align: left;
-    margin: 1.5rem 0 1.5rem 3rem;
-}
-
-.unique__sme__content1 p {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 600;
-    font-size: 14px;
-    line-height: 18px;
-    color: #1F1F1F;
-    margin: 1.5rem 0 0.5rem 3rem;
-}
-
-.unique__sme__content2 {
-    margin-top: 7rem;
-}
-
-.unique__sme__content2 p {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 600;
-    font-size: 14px;
-    line-height: 18px;
-    color: #1F1F1F;
-    margin: 1.5rem 4rem 0.5rem 2rem;
-}
-
-.unique__sme__content2 button {
-    display: none;
-    width: 160px;
-    height: 37px;
-    font-size: large;
-    font-weight: 100;
-    border-radius: 1px;
-    border-color: #F8A663;
-    color: whitesmoke;
-    cursor: pointer;
-    margin: 0.5rem 0 1.5rem 2rem;
-    background: linear-gradient(277.87deg, #F47A15 -2.6%, #F8A663 100%);
-}
-
-.omale {
-    width: 500px;
-    height: 500px;
-    margin-top: -5rem;
-    background-image: url('../../assets/images/pattern.png');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: left;
-}
-
-
-/* JOURNEY CSS*/
-
-.journey {
-    height: 750px;
-    background-image: url('../../assets/images/OurJourney.png');
-    width: auto;
-}
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+    /* ABOUT US HEADER CSS*/
+    
+    .about {
+        margin: 0;
+    }
+    
+    .about__header {
+        align-items: flex-start;
+        background-color: #F8A663;
+        display: flex;
+        justify-content: center;
+        margin-left: 40%;
+        position: relative;
+        margin: 2rem 0rem;
+        height: 40vh;
+        margin-top: 5rem;
+    }
+    
+    .about h1 {
+        font-family: 'Montserrat', sans-serif;
+        line-height: normal;
+        padding-top: 7rem;
+        font-weight: 600;
+        color: #FFFFFF;
+    }
+    /* VISION AND MISSION CSS*/
+    
+    .vision {
+        align-items: flex-start;
+        background-color: #FFFFFF;
+        display: flex;
+        justify-content: center;
+        position: relative;
+        margin: 2rem 0rem;
+    }
+    
+    .vision__mission {
+        margin: 2rem 4rem;
+        width: 507px;
+    }
+    
+    .vision__mission h1 {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 600;
+        font-size: 30px;
+        line-height: 40px;
+        letter-spacing: -0.04em;
+        color: #1E1E1E;
+        padding-top: 1rem;
+        text-align: left;
+        margin: 1.5rem 0;
+    }
+    
+    .vision__mission p {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 18px;
+        color: #1F1F1F;
+    }
+    
+    .pattern {
+        margin-left: -9.5rem;
+        height: 400px;
+        width: 140px;
+    }
+    
+    .rumoney1 {
+        height: 415px;
+        width: 415px;
+        margin-top: 1rem;
+    }
+    /* UNIQUE CSS*/
+    
+    .unique {
+        align-items: flex-start;
+        background-color: #FFFFFF;
+        display: flex;
+        justify-content: center;
+        position: relative;
+        margin: 5rem 0rem 2rem 0rem;
+    }
+    
+    .unique__content1 button {
+        width: 160px;
+        height: 37px;
+        font-size: large;
+        font-weight: 100;
+        border-radius: 1px;
+        border-color: #F8A663;
+        color: whitesmoke;
+        cursor: pointer;
+        margin: 0.5rem 0 1.5rem 3rem;
+        background: linear-gradient(277.87deg, #F47A15 -2.6%, #F8A663 100%);
+    }
+    
+    .unique__content1 h1 {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 600;
+        font-size: 32px;
+        line-height: 40px;
+        letter-spacing: -0.04em;
+        color: #1E1E1E;
+        padding-top: 1rem;
+        text-align: left;
+        margin: 1.5rem 0 1.5rem 3rem;
+    }
+    
+    .unique__content1 p {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 18px;
+        color: #1F1F1F;
+        margin: 1.5rem 0 0.5rem 3rem;
+    }
+    
+    .unique__content2 {
+        margin-top: 7rem;
+    }
+    
+    .unique__content2 p {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 18px;
+        color: #1F1F1F;
+        margin: 1.5rem 0 0.5rem 2rem;
+    }
+    
+    .unique__content2 button {
+        display: none;
+        width: 160px;
+        height: 37px;
+        font-size: large;
+        font-weight: 100;
+        border-radius: 1px;
+        border-color: #F8A663;
+        color: whitesmoke;
+        cursor: pointer;
+        margin: 0.5rem 0 1.5rem 2rem;
+        background: linear-gradient(277.87deg, #F47A15 -2.6%, #F8A663 100%);
+    }
+    
+    .prosperity {
+        width: 500px;
+        height: 500px;
+        margin-top: -5rem;
+        background-image: url('../../assets/images/pattern.png');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: right;
+    }
+    /* UNIQUE SME CSS*/
+    
+    .unique__sme {
+        align-items: flex-start;
+        background-color: #FFFFFF;
+        display: flex;
+        justify-content: center;
+        position: relative;
+        margin: 5rem 0rem 2rem 0rem;
+    }
+    
+    .unique__sme__content1 button {
+        width: 160px;
+        height: 37px;
+        font-size: large;
+        font-weight: 100;
+        border-radius: 1px;
+        border-color: #F8A663;
+        color: whitesmoke;
+        cursor: pointer;
+        margin: 0.5rem 0 1.5rem 3rem;
+        background: linear-gradient(277.87deg, #F47A15 -2.6%, #F8A663 100%);
+    }
+    
+    .unique__sme__content1 h1 {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 600;
+        font-size: 32px;
+        line-height: 40px;
+        letter-spacing: -0.04em;
+        color: #1E1E1E;
+        padding-top: 1rem;
+        text-align: left;
+        margin: 1.5rem 0 1.5rem 3rem;
+    }
+    
+    .unique__sme__content1 p {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 18px;
+        color: #1F1F1F;
+        margin: 1.5rem 0 0.5rem 3rem;
+    }
+    
+    .unique__sme__content2 {
+        margin-top: 7rem;
+    }
+    
+    .unique__sme__content2 p {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 18px;
+        color: #1F1F1F;
+        margin: 1.5rem 4rem 0.5rem 2rem;
+    }
+    
+    .unique__sme__content2 button {
+        display: none;
+        width: 160px;
+        height: 37px;
+        font-size: large;
+        font-weight: 100;
+        border-radius: 1px;
+        border-color: #F8A663;
+        color: whitesmoke;
+        cursor: pointer;
+        margin: 0.5rem 0 1.5rem 2rem;
+        background: linear-gradient(277.87deg, #F47A15 -2.6%, #F8A663 100%);
+    }
+    
+    .omale {
+        width: 500px;
+        height: 500px;
+        margin-top: -5rem;
+        background-image: url('../../assets/images/pattern.png');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: left;
+    }
+    /* JOURNEY CSS*/
+    
+    .journey {
+        height: 750px;
+        background-image: url('../../assets/images/OurJourney.png');
+        width: auto;
+    }
+    
+    @media screen and (max-width:1024px) {}
+    
+    @media screen and (max-width:960px) {
+        .about__header {
+            height: 24vh;
+            margin-top: 5rem;
+        }
+        /*Vision*/
+        .vision {
+            display: inline;
+        }
+        .vision__mission {
+            margin: 2rem 1rem;
+        }
+        .vision__mission h1 {
+            text-align: center;
+        }
+        .vision__mission p {
+            text-align: center;
+        }
+        .pattern {
+            display: none;
+        }
+        .rumoney1 {
+            margin-left: 10%;
+            width: 60%;
+            height: 90%;
+            margin-top: 1rem;
+        }
+        /*Unique*/
+        .unique {
+            display: inline;
+            height: 100%;
+        }
+        .unique__content1 button {
+            display: none;
+        }
+        .unique__content1 h1 {
+            text-align: left;
+        }
+        .unique__content1 p {
+            text-align: left;
+            margin: 1rem;
+        }
+        .unique__content2 {
+            text-align: center;
+            margin-top: 2rem;
+        }
+        .unique__content2 p {
+            text-align: left;
+            margin: 1rem;
+        }
+        .unique__content2 button {
+            width: 50%;
+            height: 5vh;
+            display: block;
+        }
+        .prosperity {
+            margin-top: 5rem;
+            height: 80%;
+        }
+        /*Unique SME*/
+        .unique__sme {
+            display: inline;
+            height: 100%;
+        }
+        .unique__sme__content1 button {
+            display: none;
+        }
+        .unique__sme__content1 h1 {
+            text-align: left;
+        }
+        .unique__sme__content1 p {
+            text-align: left;
+            margin: 1rem;
+        }
+        .unique__sme__content2 {
+            text-align: center;
+            margin-top: 2rem;
+        }
+        .unique__sme__content2 p {
+            text-align: left;
+            margin: 1rem;
+        }
+        .unique__sme__content2 button {
+            width: 50%;
+            height: 5vh;
+            display: inline;
+        }
+        .omale {
+            margin-top: 5rem;
+            height: 80%;
+        }
+        /* JOURNEY CSS*/
+    }
+    
+    @media screen and (max-width:767px) {
+        .about__header {
+            height: 20vh;
+            margin-top: 5rem;
+        }
+        .about h1 {
+            padding-top: 4rem;
+        }
+        /*Vision*/
+        .rumoney1 {
+            margin-left: 10%;
+            width: 60%;
+            height: 80%;
+            margin-top: 1rem;
+        }
+    }
