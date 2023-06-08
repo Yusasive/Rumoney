@@ -1,9 +1,9 @@
 import React from 'react';
-import {HeroSection, Certified, Gain, CTA, Testimonial, EmailList} from '../../components';
+import {Hire, Certified, Gain, CTA, Testimonial, EmailList} from '../../components';
 const Home = () => {
   return (
     <div>
-    <HeroSection /> 
+    <Hire /> 
     <Certified />
     <Gain />
     <CTA />
