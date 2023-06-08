@@ -1,9 +1,14 @@
 import React from 'react';
-import './HireTalents.css';
+import { Certified, Gain, World, Testimonial, EmailList, Hire} from '../../components';
 const HireTalents = () => {
   return (
     <div>
-      <h1>Hello HireTalents</h1>
+    <Hire /> 
+    <Certified />
+    <Gain />
+    <World />
+    <Testimonial />
+    <EmailList />
     </div>
   )
 }

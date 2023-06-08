@@ -8,3 +8,4 @@ export { default as Footer } from './footer/Footer';
 export { default as Gain } from './gain/Gain';
 export { default as Certified } from './certified/Certified';
 export { default as Hire } from './hire/Hire';
+export { default as World } from './world/World';
