@@ -5,9 +5,9 @@ import ContactUs from './ContactUs';
 const Contact = () => {
   return (
     <div className='contact'>  
-      <div className='contact__content'>
-      <h1>Contact Us</h1>
-      </div>
+     <div className="contact__header">
+        <h1 className='contact__content'>About Us</h1>
+       </div>
       <FAQs />
       <div className='contact__down'>
         
