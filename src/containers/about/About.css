@@ -235,10 +235,9 @@
     }
     /* JOURNEY CSS*/
     
-    .journey {
-        height: 750px;
-        background-image: url('../../assets/images/OurJourney.png');
-        width: auto;
+    .journey img {
+        width: 80%;
+        height: 90%;
     }
     
     @media screen and (max-width:1024px) {}
@@ -254,6 +253,7 @@
         }
         .vision__mission {
             margin: 2rem 1rem;
+            width: 90%;
         }
         .vision__mission h1 {
             text-align: center;
@@ -301,6 +301,7 @@
         .prosperity {
             margin-top: 5rem;
             height: 80%;
+            width: 70%;
         }
         /*Unique SME*/
         .unique__sme {
@@ -333,8 +334,13 @@
         .omale {
             margin-top: 5rem;
             height: 80%;
+            width: 70%;
         }
         /* JOURNEY CSS*/
+        .journey img {
+            width: 80%;
+            height: 90%;
+        }
     }
     
     @media screen and (max-width:767px) {
@@ -351,5 +357,10 @@
             width: 60%;
             height: 80%;
             margin-top: 1rem;
+        }
+        /* JOURNEY CSS*/
+        .journey img {
+            width: 80%;
+            height: 90%;
         }
     }
