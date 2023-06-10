@@ -19,6 +19,12 @@
             color: #FFFFFF;
         }
         
+        .contact h2 {
+            font-size: 30px;
+            font-weight: 600;
+            text-align: center;
+        }
+        
         .NeedHelp {
             width: 100%;
         }

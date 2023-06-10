@@ -17,7 +17,7 @@ const Footer = () =>
             <div className="col-md-3 mb-md-0 mb-3">
                 <h5 className="text-uppercase">Quick Links</h5>
                 <ul  class="text-white " className="list-unstyled">
-                <li><Link class="text-muted text-decoration-none" to='/'> Students</Link></li>
+                <li><Link  class="text-muted text-decoration-none" to='/'> Students</Link></li>
                 <li><Link class="text-muted text-decoration-none" to='/hiretalents'> Hire Talents</Link></li>
                 <li><Link class="text-muted text-decoration-none" to='/courses'> Courses</Link></li>
                 <li><Link class="text-muted text-decoration-none" to='/community'> Communities</Link></li>
@@ -35,10 +35,10 @@ const Footer = () =>
                     </ul>
                     <h5 className="text-uppercase">Follow Us</h5>
                           <div className='footer-icons'>
-                         <a class="text-muted" href="www.facebook.com"><FaFacebook className='social' /></a>
-                         <a class="text-muted" href="www.linkedin.com"><FaLinkedin className='social' /></a>
-                         <a class="text-muted" href="www.twitter.com"><FaTwitter className='social' /></a>
-                         <a class="text-muted" href="www.instagram.com"><FaInstagram className='social' /></a>
+                         <a class="text-muted w-auto p-3" target="_blank" href="www.facebook.com"><FaFacebook className='social' /></a>
+                         <a class="text-muted w-auto p-3" target="_blank" href="www.linkedin.com"><FaLinkedin className='social' /></a>
+                         <a class="text-muted w-auto p-3" target="_blank" href="www.twitter.com"><FaTwitter className='social' /></a>
+                         <a class="text-muted w-auto p-3" target="_blank" href="www.instagram.com"><FaInstagram className='social' /></a>
       </div>
 
                 

@@ -3,9 +3,10 @@ import Accordion from 'react-bootstrap/Accordion';
 function FAQs() {
   return (
     <Accordion>
-      <Accordion.Item eventKey="0">
-        <Accordion.Header>Accordion Item #1</Accordion.Header>
-        <Accordion.Body>
+      
+      <Accordion.Item  class="font-weight-bold"eventKey="0">
+        <Accordion.Header class="font-weight-bolder">Accordion Item #1</Accordion.Header>
+        <Accordion.Body class="font-weight-bolder">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
           minim veniam, quis nostrud exercitation ullamco laboris nisi ut

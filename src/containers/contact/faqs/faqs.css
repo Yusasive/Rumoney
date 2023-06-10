@@ -33,13 +33,16 @@ body {
     cursor: pointer;
     border-radius: 20px;
     color: #1F1F1F;
+    font-size: 20px;
+    font-weight: 600;
 }
 
 .accordion-title,
 .accordion-content {
     padding: 1rem;
     font-family: 'Montserrat', sans-serif;
-    font-size: x-large;
+    font-size: 20px;
+    font-weight: 600;
 }
 
 .accordion-content {
