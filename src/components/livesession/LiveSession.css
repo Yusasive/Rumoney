@@ -25,9 +25,14 @@
 
 @media screen and (max-width: 767px) {
     .live h1 {
-        font-weight: 400;
+        font-weight: 600;
         font-size: 30px;
         line-height: 40px;
         padding-top: 2rem;
+    }
+    .video-responsive {
+        margin-bottom: 2rem;
+        padding-bottom: 100%;
+        height: 100%;
     }
 }
