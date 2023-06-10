@@ -7,9 +7,27 @@
 }
 
 .video-responsive iframe {
-    left: 0;
-    top: 0;
-    height: 40%;
-    width: 40%;
+    margin: 1rem;
+    width: 90%;
     position: absolute;
+}
+
+.Live h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 40px;
+    letter-spacing: -0.04em;
+    color: #1E1E1E;
+    padding-top: 3rem;
+    text-align: center;
+}
+
+@media screen and (max-width: 767px) {
+    .live h1 {
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 40px;
+        padding-top: 2rem;
+    }
 }

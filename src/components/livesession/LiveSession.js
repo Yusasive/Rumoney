@@ -6,7 +6,7 @@ export default function LiveSession() {
   return (
     <div className="Live">
       <h1>Watch some of our live sessions to get started with learning Digital  Marketing</h1>
-      <YoutubeEmbed embedId="rokGy0huYEA" />
+      <YoutubeEmbed embedId="ydOmxCmdJmw" />
     </div>
   );
 }
