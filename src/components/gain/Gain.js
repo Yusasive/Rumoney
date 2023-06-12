@@ -3,7 +3,7 @@ import "./Gain.css";
 import Learn from '../../assets/icons/Learn.png';
 import Experience from '../../assets/icons/Experience.png';
 import Earn from '../../assets/icons/earn.png';
-
+import { Link } from 'react-router-dom';
 
 const Gain = () => {
   return (
@@ -11,7 +11,7 @@ const Gain = () => {
     <div className='gain-content'>
       <h1>What you stand to gain as a <span>student</span></h1>
       <p>Rumoney is the world’s biggest Digital marketing learning community where we have global experts to empower students on relevant digital skills for FREE</p>
-      <button className='button1'>Start Learning Now</button>
+      <Link to='/cohort'> <button className='button1'>Start Learning Now</button></Link>
     </div>
       <div className='gain-grid'>
         <div className="grid a">

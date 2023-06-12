@@ -3,7 +3,7 @@ import Navbar from './components/navbar/NavBar';
 import Footer from './components/footer/Footer';
 import './App.css';
 import { BrowserRouter, Route, Switch } from "react-router-dom";
-import {Home, Community, Who, Students, HireTalents, Courses, Contact, About, Blog } from './containers';
+import {Home, Community, Who, Students, HireMarketers, HireTalents, Courses, Contact, About, Blog, Cohort } from './containers';
 
 
 function App() {
@@ -20,6 +20,8 @@ function App() {
         <Route path='/community' component={Community} />
         <Route path='/contact' component={Contact} />
         <Route path='/who' component={Who} />
+        <Route path='/hire-markerters' component={HireMarketers} />
+        <Route path='/cohort' component={Cohort} />
         
       </Switch>
      <Footer />
