@@ -20,7 +20,7 @@ function App() {
         <Route path='/community' component={Community} />
         <Route path='/contact' component={Contact} />
         <Route path='/who' component={Who} />
-        <Route path='/hire-markerters' component={HireMarketers} />
+        <Route path='/hire-marketers' component={HireMarketers} />
         <Route path='/cohort' component={Cohort} />
         
       </Switch>

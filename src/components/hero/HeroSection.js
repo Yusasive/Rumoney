@@ -9,7 +9,7 @@ const HeroSection = () => (
       <h1 className="gradient__text">Become a digital <br /> marketing <span>Genius</span></h1>
       <p>Learn digital marketing from top experts over Africa and get ready to access global opportunities.</p>
       <Link  to='/cohort'>  <button className='hero-button1'>Start Learning</button></Link>
-      <Link to='/hire-markerters'>   <button className='hero-button2'>Hire Marketer</button></Link>
+      <Link to='/hire-marketers'>   <button className='hero-button2'>Hire Marketer</button></Link>
     </div>
 <div className="hero-image">   
    <img className='hero-image1' src={Rectangle} alt="Rectangle" />
