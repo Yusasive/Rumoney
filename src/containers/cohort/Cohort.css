@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+.cohort__header {
+    align-items: flex-start;
+    background-color: #F8A663;
+    display: flex;
+    justify-content: center;
+    margin-left: 40%;
+    position: relative;
+    margin: 2rem 0rem;
+    height: 40vh;
+    margin-top: 5rem;
+}
+
+.cohort h1 {
+    font-family: 'Montserrat', sans-serif;
+    line-height: normal;
+    padding-top: 7rem;
+    font-weight: 600;
+    color: #FFFFFF;
+}
+
+.cohortform h2 {
+    text-align: center;
+    font-size: xx-large;
+    font-weight: 600;
+    color: #1F1F1F;
+}
+
+@media screen and (max-width:960px) {
+    .cohort__header {
+        height: 24vh;
+        margin-top: 5rem;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .cohort__header {
+        height: 20vh;
+        margin-top: 5rem;
+    }
+    .cohort h1 {
+        padding-top: 4rem;
+    }
+}
