@@ -62,6 +62,10 @@
         transition: all 0.2s ease-out;
     }
     
+    .active {
+        color: #F47A15;
+    }
+    
     .fa-bars {
         color: #1E1E1E;
     }

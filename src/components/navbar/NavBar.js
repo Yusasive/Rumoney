@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 //import { Button } from './Button';
-import { Link } from 'react-router-dom';
+import {Link} from 'react-router-dom';
+import {NavLink} from 'react-router-dom';
 import './NavBar.css';
 import Dropdown from './DropDown';
 import Logo from '../../assets/icons/logo.svg';
@@ -38,50 +39,49 @@ function Navbar() {
         </div>
         <ul className={click ? 'nav-menu active' : 'nav-menu'}>
           <li className='nav-item'>
-            <Link to='/' className='nav-links' onClick={closeMobileMenu}>
+            <Link  to='/' className='nav-links' onClick={closeMobileMenu}>
               Students
             </Link>
           </li>
           <li className='nav-item'>
-            <Link
+            <NavLink activeClassName="active"
               to='/hiretalents'
               className='nav-links'
               onClick={closeMobileMenu}
             >
               Hire Talents
-            </Link>
+            </NavLink>
           </li>
           <li className='nav-item'>
-            <Link
-              to='/courses'
+            <NavLink activeClassName="active"              to='/courses'
               className='nav-links'
               onClick={closeMobileMenu}
             >
               Courses
-            </Link>
+            </NavLink>
           </li>
           <li
             className='nav-item'
             onMouseEnter={onMouseEnter}
             onMouseLeave={onMouseLeave}
           >
-            <Link
+            <NavLink activeClassName="active"
               to='/about'
               className='nav-links'
               onClick={closeMobileMenu}
             >
               About Us <i className='fas fa-caret-down' />
-            </Link>
+            </NavLink>
             {dropdown && <Dropdown />}
           </li>
           <li className='nav-item'>
-            <Link
+            <NavLink activeClassName="active"
               to='/blog'
               className='nav-links'
               onClick={closeMobileMenu}
             >
               Blog
-            </Link>
+            </NavLink>
           </li>
          
         

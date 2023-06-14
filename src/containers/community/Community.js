@@ -9,10 +9,12 @@ const Community = () => {
       <div className="community__header">
         <h1 className='community__content'>Community</h1>
        </div>
-      <Join />
-      <CommunityForm   />
+   <div>
+   <Join />
+   <CommunityForm   />
+   </div>
     </div>
   )
 }
 
-export default Community
+export default Community;

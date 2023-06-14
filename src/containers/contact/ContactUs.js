@@ -1,82 +1,100 @@
-import React from "react"; 
-import { Container, Row, Col } from "react-bootstrap";
-import { contactConfig } from "./content_option"
+import React, { useRef } from "react";
+import emailjs from "@emailjs/browser";
+import styled from "styled-components";
 
-export default function ContactUs() {
-  
+const Contact = () => {
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        "replace with service id",
+        "replace with template id",
+        form.current,
+        "replace with user id"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+          console.log("message sent");
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+  };
 
   return (
-      <Container>
-     
-        <Row className="mb-5 mt-3">
-          <Col lg="8">
-            <h1 className="display-4 mb-4">Contact Me</h1>
-            <hr className="t_border my-4 ml-0 text-left" />
-          </Col>
-        </Row>
-        <Row className="sec_sp">
-          <Col lg="5" className="mb-5">
-            <h3 className="color_sec py-4">Get in touch</h3>
-            <address>
-              <strong>Email:</strong>{" "}
-              <a href={`mailto:${contactConfig.YOUR_EMAIL}`}>
-                {contactConfig.YOUR_EMAIL}
-              </a>
-              <br />
-              <br />
-              {contactConfig.hasOwnProperty("YOUR_PHONE") ? (
-                <p>
-                  <strong>Phone:</strong> {contactConfig.YOUR_FONE}
-                </p>
-              ) : (
-                ""
-              )}
-            </address>
-            <p>{contactConfig.description}</p>
-          </Col>
-          <Col lg="7" className="d-flex align-items-center">
-            <form  className="contact__form w-100">
-              <Row>
-                <Col lg="6" className="form-group">
-                  <input
-                    className="form-control"
-                    id="name"
-                    name="name"
-                    placeholder="Name" 
-                    type="text"
-                    required 
-                  />
-                </Col>
-                <Col lg="6" className="form-group">
-                  <input
-                    className="form-control rounded-0"
-                    id="email"
-                    name="email"
-                    placeholder="Email"
-                    type="email" 
-                    required 
-                  />
-                </Col>
-              </Row>
-              <textarea
-                className="form-control rounded-0"
-                id="message"
-                name="message"
-                placeholder="Message"
-                rows="5" 
-                required
-              ></textarea>
-              <br />
-              <Row>
-                <Col lg="12" className="form-group">
-                  <button className="btn ac_btn" type="submit"> 
-                  Send
-                  </button>
-                </Col>
-              </Row>
-            </form>
-          </Col>
-        </Row>
-      </Container>
+    <StyledContactForm>
+      <form ref={form} onSubmit={sendEmail}>
+        <label>Name</label>
+        <input type="text" placeholder="Full Name" name="user_name" required />
+        <label>Email</label>
+        <input type="email" placeholder="Your Email" name="user_email" required />
+        <label>Message</label>
+        <textarea placeholder="Message" name="message" required />
+        <input type="submit" value="Send" />
+      </form>
+    </StyledContactForm>
   );
-}
+};
+
+export default Contact;
+
+// Styles
+const StyledContactForm = styled.div`
+  width: 400px;
+
+  form {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 100%;
+    font-size: 16px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+
+    input {
+      width: 100%;
+      height: 35px;
+      padding: 7px;
+      outline: none;
+      border-radius: 5px;
+      border: 1px solid rgb(220, 220, 220);
+
+      &:focus {
+        border: 2px solid rgba(0, 206, 158, 1);
+      }
+    }
+
+    textarea {
+      max-width: 100%;
+      min-width: 100%;
+      width: 100%;
+      max-height: 100px;
+      min-height: 100px;
+      padding: 7px;
+      outline: none;
+      border-radius: 5px;
+      border: 1px solid rgb(220, 220, 220);
+
+      &:focus {
+        border: 2px solid rgba(0, 206, 158, 1);
+      }
+    }
+
+    label {
+      margin-top: 1rem;
+    }
+
+    input[type="submit"] {
+      margin-top: 2rem;
+      cursor: pointer;
+      background: rgb(249, 105, 14);
+      color: white;
+      border: none;
+    }
+  }
+`;
