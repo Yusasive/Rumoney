@@ -17,8 +17,8 @@
 }
 
 .world button {
-    width: 40%px;
-    height: 37px;
+    width: 40%;
+    height: 5vh;
     margin-left: 45%;
     margin-bottom: 3rem;
     font-family: 'Montserrat', sans-serif;
@@ -37,8 +37,8 @@
         padding-top: 2rem;
     }
     .world button {
-        width: 45%px;
-        height: 40px;
+        width: 45%;
+        height: 5vh;
         margin-left: 25%;
         border-radius: 1px;
     }

@@ -257,6 +257,7 @@
         }
         .vision__mission h1 {
             text-align: center;
+            margin: auto;
         }
         .vision__mission p {
             text-align: center;
@@ -279,7 +280,8 @@
             display: none;
         }
         .unique__content1 h1 {
-            text-align: left;
+            text-align: center;
+            margin: auto;
         }
         .unique__content1 p {
             text-align: left;
@@ -312,7 +314,8 @@
             display: none;
         }
         .unique__sme__content1 h1 {
-            text-align: left;
+            text-align: center;
+            margin: auto;
         }
         .unique__sme__content1 p {
             text-align: left;
