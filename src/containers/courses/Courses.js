@@ -2,6 +2,7 @@ import React from 'react';
 import './Courses.css';
 import CoursesImage from '../../assets/images/CoursesImage.png';
 import { LiveSession } from '../../components';
+import { Link } from 'react-router-dom';
 
 const Courses = () => (
   <div>
@@ -14,7 +15,8 @@ const Courses = () => (
       <h1 className="gradient__text">Accelerator Digital Marketing Course</h1>
       <p>Take a step  today to become Digital marketing genius and get certified by by Google, Meta, Microsoft and Jobberman. 
        Learn and earn even while you are still a student for <span>FREE</span></p>
-      <button className='courses-button1'>Start Learning</button>
+
+      <Link to='/cohort'> <button className='courses-button1'>Start Learning</button></Link>
     </div>
 
     </div>

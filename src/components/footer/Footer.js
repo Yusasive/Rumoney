@@ -1,7 +1,6 @@
 import React from "react";
 import './Footer.css';
 import {FaTwitter, FaFacebook, FaInstagram, FaLinkedin} from 'react-icons/fa';
-import { Link } from 'react-router-dom';
 import Rumoney from '../../assets/images/logo.png';
 
 const Footer = () => 
@@ -17,21 +16,21 @@ const Footer = () =>
             <div className="col-md-3 mb-md-0 mb-3">
                 <h5 className="text-uppercase">Quick Links</h5>
                 <ul  class="text-white " className="list-unstyled">
-                <li><Link  class="text-muted text-decoration-none" to='/'> Students</Link></li>
-                <li><Link class="text-muted text-decoration-none" to='/hiretalents'> Hire Talents</Link></li>
-                <li><Link class="text-muted text-decoration-none" to='/courses'> Courses</Link></li>
-                <li><Link class="text-muted text-decoration-none" to='/community'> Communities</Link></li>
-                <li><Link class="text-muted text-decoration-none" to='/blog'> Blogs</Link></li>
+                <li><a  class="text-muted text-decoration-none" href='/'> Students</a></li>
+                <li><a class="text-muted text-decoration-none" href='/hiretalents'> Hire Talents</a></li>
+                <li><a class="text-muted text-decoration-none" href='/courses'> Courses</a></li>
+                <li><a class="text-muted text-decoration-none" href='/community'> Communities</a></li>
+                <li><a class="text-muted text-decoration-none" href='/blog'> Blogs</a></li>
                 </ul>
             </div>
 
             <div className="col-md-3 mb-md-0 mb-3">
             <h5 className="text-uppercase">Who We Are</h5>
                    <ul className="list-unstyled">
-                   <li>  <Link class="text-muted text-decoration-none" to='/about'> About Us</Link></li>
-                   <li>  <Link class="text-muted text-decoration-none" to='/contact'> Contact Us</Link></li>
-                    <li>  <Link class="text-muted text-decoration-none" to='/contact'> Privacy Policy</Link></li>
-                    <li><Link class="text-muted text-decoration-none"  to='/contact'> Terms and Condition</Link></li>
+                   <li>  <a class="text-muted text-decoration-none" href='/about'> About Us</a></li>
+                   <li>  <a class="text-muted text-decoration-none" href='/contact'> Contact Us</a></li>
+                    <li>  <a class="text-muted text-decoration-none" href='/contact'> Privacy Policy</a></li>
+                    <li><a class="text-muted text-decoration-none" href='/contact'> Terms and Condition</a></li>
                     </ul>
                     <h5 className="text-uppercase">Follow Us</h5>
                           <div className='footer-icons'>
@@ -51,4 +50,4 @@ const Footer = () =>
 
 </footer>
 
-export default Footer
+export default Footer;
