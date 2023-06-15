@@ -11,6 +11,37 @@
     margin-top: 5rem;
 }
 
+.contact h1 {
+    font-family: 'Montserrat', sans-serif;
+    line-height: normal;
+    padding-top: 7rem;
+    font-weight: 600;
+    color: #FFFFFF;
+}
+
+.contact h2 {
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.NeedHelp {
+    width: 100%;
+}
+
+.form {
+    margin: 0rem 3rem;
+    width: 100%;
+}
+
+.contact__down {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: row;
+    margin: 3rem;
+}
+
 .custom-btn {
     font-size: large;
     font-weight: 100;
@@ -35,5 +66,17 @@
     }
     .contact h1 {
         padding-top: 4rem;
+    }
+    .form {
+        margin: 0rem 3rem;
+        width: 90%;
+        padding: 5%;
+    }
+    .contact__down {
+        display: inline;
+        justify-content: center;
+        align-items: flex-start;
+        flex-direction: row;
+        padding: 2rem;
     }
 }

@@ -7,7 +7,7 @@ const ContentOption = () => {
       
         <h2>Need Some Help?</h2>
         <h6>If you have some questions or want to partner, Rumoney staff are always available to  answer your questions</h6>
-       <a href="https://yusufabdullahi@gmail.com">Email:yusufabdullahi@gmail.com</a>
+       <a class="text-decoration-none text-muted" href="https://yusufabdullahi@gmail.com">Email:yusufabdullahi@gmail.com</a>
       
        <h2 className="text-uppercase">Follow Us</h2>
                           <div className='footer-icons'>

@@ -2,6 +2,7 @@ import React from "react";
 import './Footer.css';
 import {FaTwitter, FaFacebook, FaInstagram, FaLinkedin} from 'react-icons/fa';
 import Rumoney from '../../assets/images/logo.png';
+import { Link } from 'react-router-dom';
 
 const Footer = () => 
 <footer className="page-footer font-small blue pt-4">
@@ -27,8 +28,8 @@ const Footer = () =>
             <div className="col-md-3 mb-md-0 mb-3">
             <h5 className="text-uppercase">Who We Are</h5>
                    <ul className="list-unstyled">
-                   <li>  <a class="text-muted text-decoration-none" href='/about'> About Us</a></li>
-                   <li>  <a class="text-muted text-decoration-none" href='/contact'> Contact Us</a></li>
+                   <li>  <Link class="text-muted text-decoration-none" to='/about'> About Us</Link></li>
+                   <li>  <Link class="text-muted text-decoration-none" to='/contact'> Contact Us</Link></li>
                     <li>  <a class="text-muted text-decoration-none" href='/contact'> Privacy Policy</a></li>
                     <li><a class="text-muted text-decoration-none" href='/contact'> Terms and Condition</a></li>
                     </ul>
