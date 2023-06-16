@@ -17,11 +17,11 @@ const Footer = () =>
             <div className="col-md-3 mb-md-0 mb-3">
                 <h5 className="text-uppercase">Quick Links</h5>
                 <ul  class="text-white " className="list-unstyled">
-                <li><Link  class="text-muted text-decoration-none" href='/'> Students</Link></li>
-                <li><Link class="text-muted text-decoration-none" href='/hiretalents'> Hire Talents</Link></li>
-                <li><Link class="text-muted text-decoration-none" href='/courses'> Courses</Link></li>
-                <li><Link class="text-muted text-decoration-none" href='/community'> Communities</Link></li>
-                <li><Link class="text-muted text-decoration-none" href='/blog'> Blogs</Link></li>
+                <li><Link  class="text-muted text-decoration-none" to='/'> Students</Link></li>
+                <li><Link class="text-muted text-decoration-none" to='/hiretalents'> Hire Talents</Link></li>
+                <li><Link class="text-muted text-decoration-none" to='/courses'> Courses</Link></li>
+                <li><Link class="text-muted text-decoration-none" to='/community'> Communities</Link></li>
+                <li><Link class="text-muted text-decoration-none" to='/blog'> Blogs</Link></li>
                 </ul>
             </div>
 
@@ -30,8 +30,8 @@ const Footer = () =>
                    <ul className="list-unstyled">
                    <li>  <Link class="text-muted text-decoration-none" to='/about'> About Us</Link></li>
                    <li>  <Link class="text-muted text-decoration-none" to='/contact'> Contact Us</Link></li>
-                    <li>  <Link class="text-muted text-decoration-none" href='/contact'> Privacy Policy</Link></li>
-                    <li><Link class="text-muted text-decoration-none" href='/contact'> Terms and Condition</Link></li>
+                    <li>  <Link class="text-muted text-decoration-none" to='/contact'> Privacy Policy</Link></li>
+                    <li><Link class="text-muted text-decoration-none" to='/contact'> Terms and Condition</Link></li>
                     </ul>
                     <h5 className="text-uppercase">Follow Us</h5>
                           <div className='footer-icons'>
