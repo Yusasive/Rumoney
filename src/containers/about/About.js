@@ -5,7 +5,6 @@ import Unique from './Unique';
 import Vision from './vision';
 import UniqueSME from './UniqueSME';
 import Journey from './Journey';
-import ScrollSpy from './ScrollSpy';
 const About = () => {
   return (
     <div className='about'>
@@ -18,7 +17,6 @@ const About = () => {
         <Unique />
         <UniqueSME />
         <Journey />
-        <ScrollSpy />
        </div>
     </div>
   )
