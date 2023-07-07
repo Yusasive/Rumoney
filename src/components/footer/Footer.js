@@ -35,7 +35,7 @@ const Footer = () =>
                     </ul>
                     <h5 className="text-uppercase">Follow Us</h5>
                           <div className='footer-icons'>
-                         <a class="text-muted w-auto p-3" target="_blank" href="www.facebook.com"><FaFacebook className='social' /></a>
+                         <a class="text-muted w-auto p-3" target="_blank" rel="noopener noreferrer"  href="www.facebook.com"><FaFacebook className='social' target/></a>
                          <a class="text-muted w-auto p-3" target="_blank" href="www.linkedin.com"><FaLinkedin className='social' /></a>
                          <a class="text-muted w-auto p-3" target="_blank" href="www.twitter.com"><FaTwitter className='social' /></a>
                          <a class="text-muted w-auto p-3" target="_blank" href="www.instagram.com"><FaInstagram className='social' /></a>
