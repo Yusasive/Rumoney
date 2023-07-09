@@ -1,6 +1,7 @@
  import React from 'react';
 import Navbar from './components/navbar/NavBar';
 import Footer from './components/footer/Footer';
+import ScrollToTop from './ScrollToTop';
 import './App.css';
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 import {Home, Community, Who, Students, HireMarketers, HireTalents, Courses, Contact, About, Blog, Cohort } from './containers';
@@ -9,6 +10,7 @@ import {Home, Community, Who, Students, HireMarketers, HireTalents, Courses, Con
 function App() {
   return (
     <BrowserRouter>
+      <ScrollToTop />
       <Navbar />
       <Switch>
         <Route path='/' exact component={Home} />

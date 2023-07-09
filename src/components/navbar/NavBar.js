@@ -74,13 +74,14 @@ function Navbar() {
             {dropdown && <Dropdown />}
           </li>
           <li className='nav-item'>
-            <NavLink activeClassName="active"
-              to='/blog'
+            <a activeClassName="active"
+              rel="noopener noreferrer"
+              href='https://www.blog.rumoney.digital/'
               className='nav-links'
               onClick={closeMobileMenu}
             >
               Blog
-            </NavLink>
+            </a>
           </li>
          
         

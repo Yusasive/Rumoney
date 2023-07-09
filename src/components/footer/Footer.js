@@ -21,7 +21,7 @@ const Footer = () =>
                 <li><Link class="text-muted text-decoration-none" to='/hiretalents'> Hire Talents</Link></li>
                 <li><Link class="text-muted text-decoration-none" to='/courses'> Courses</Link></li>
                 <li><Link class="text-muted text-decoration-none" to='/community'> Communities</Link></li>
-                <li><Link class="text-muted text-decoration-none" to='/blog'> Blogs</Link></li>
+                <li><a class="text-muted text-decoration-none" rel="noopener noreferrer" href='https://www.blog.rumoney.digital/'> Blogs</a></li>
                 </ul>
             </div>
 
@@ -35,10 +35,10 @@ const Footer = () =>
                     </ul>
                     <h5 className="text-uppercase">Follow Us</h5>
                           <div className='footer-icons'>
-                         <a class="text-muted w-auto p-3" target="_blank" rel="noopener noreferrer"  href="www.facebook.com"><FaFacebook className='social' target/></a>
-                         <a class="text-muted w-auto p-3" target="_blank" href="www.linkedin.com"><FaLinkedin className='social' /></a>
-                         <a class="text-muted w-auto p-3" target="_blank" href="www.twitter.com"><FaTwitter className='social' /></a>
-                         <a class="text-muted w-auto p-3" target="_blank" href="www.instagram.com"><FaInstagram className='social' /></a>
+                         <a class="text-muted w-auto p-3" target="_blank" rel="noopener noreferrer" href="https://www.facebook.com"><FaFacebook className='social' target/></a>
+                         <a class="text-muted w-auto p-3" target="_blank" rel="noopener noreferrer" href="www.linkedin.com/company/rumoneyng/mycompany/"><FaLinkedin className='social' /></a>
+                         <a class="text-muted w-auto p-3" target="_blank" rel="noopener noreferrer" href="www.twitter.com/Rumoneyng"><FaTwitter className='social' /></a>
+                         <a class="text-muted w-auto p-3" target="_blank" rel="noopener noreferrer" href="www.instagram.com"><FaInstagram className='social' /></a>
       </div>
 
                 
