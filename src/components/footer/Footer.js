@@ -1,7 +1,7 @@
 import React from "react";
 import './Footer.css';
 import {FaTwitter, FaFacebook, FaInstagram, FaLinkedin} from 'react-icons/fa';
-import Rumoney from '../../assets/images/logo.png';
+import Rumoney from '../../assets/images/logo.svg';
 import { Link } from 'react-router-dom';
 
 const Footer = () => 
