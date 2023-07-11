@@ -36,9 +36,9 @@ const Footer = () =>
                     <h5 className="text-uppercase">Follow Us</h5>
                           <div className='footer-icons'>
                          <a class="text-muted w-auto p-3" target="_blank" rel="noopener noreferrer" href="https://www.facebook.com"><FaFacebook className='social' target/></a>
-                         <a class="text-muted w-auto p-3" target="_blank" rel="noopener noreferrer" href="www.linkedin.com/company/rumoneyng/mycompany/"><FaLinkedin className='social' /></a>
-                         <a class="text-muted w-auto p-3" target="_blank" rel="noopener noreferrer" href="www.twitter.com/Rumoneyng"><FaTwitter className='social' /></a>
-                         <a class="text-muted w-auto p-3" target="_blank" rel="noopener noreferrer" href="www.instagram.com"><FaInstagram className='social' /></a>
+                         <a class="text-muted w-auto p-3" target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/company/rumoneyng/mycompany/"><FaLinkedin className='social' /></a>
+                         <a class="text-muted w-auto p-3" target="_blank" rel="noopener noreferrer" href="https://www.twitter.com/Rumoneyng"><FaTwitter className='social' /></a>
+                         <a class="text-muted w-auto p-3" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com"><FaInstagram className='social' /></a>
       </div>
 
                 
