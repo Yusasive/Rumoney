@@ -25,8 +25,8 @@ export const responsive = {
       imageurl:
         "https://images.unsplash.com/photo-1560769629-975ec94e6a86?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fHByb2R1Y3RzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
         alt: "Images slide",
-      name: "John Ajayi",
-      description: "Rumoney is a life saver. I have been exposed to a lot in the period of taking the course.",
+      name: "Success C JohnSon",
+      description: "I just Go A Paid Internship! And  I'm now a Microsoft Advertising Certified Professional!. Thanks to RUMONEY, more win ahead",
     },
     {
       id: 2,
