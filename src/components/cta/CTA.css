@@ -18,11 +18,11 @@
     
     .cta button {
         width: 20%;
-        height: 5vh;
+        height: 6vh;
         margin-left: 42%;
         margin-bottom: 3rem;
         font-family: 'Montserrat', sans-serif;
-        border-radius: 3px;
+        border-radius: 0.4rem;
         border-color: #F8A663;
         color: whitesmoke;
         cursor: pointer;

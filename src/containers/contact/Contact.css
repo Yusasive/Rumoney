@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap');
 .contact__header {
     align-items: flex-start;
     background-color: #F8A663;
@@ -47,6 +47,7 @@
     font-weight: 100;
     border-color: #F8A663;
     color: whitesmoke;
+    border-radius: 0.4rem;
     cursor: pointer;
     background: linear-gradient(277.87deg, #F47A15 -2.6%, #F8A663 100%);
 }

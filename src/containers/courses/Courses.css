@@ -48,6 +48,7 @@
     margin-left: 2rem;
     font-family: 'Montserrat', sans-serif;
     border-width: 1px;
+    border-radius: 0.4rem;
     border-color: #F8A663;
     color: whitesmoke;
     cursor: pointer;
