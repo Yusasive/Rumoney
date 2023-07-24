@@ -49,3 +49,9 @@
     margin-right: auto;
     margin-top: 1rem;
 }
+@media screen and (max-width: 500px) {
+    .Testimonial h1 {
+    font-weight: 600;
+    font-size: 30px;
+    margin: 0rem 0.2rem;
+}}
