@@ -18,11 +18,13 @@
 
 .world button {
     width: 15%;
-    height: 5vh;
+    height: 7vh;
+    font-size: larger;
+    font-weight: 500;
     margin-left: 42%;
     margin-bottom: 3rem;
     font-family: 'Montserrat', sans-serif;
-    border-radius: 1px;
+    border-radius: 2px;
     border-color: #F8A663;
     color: whitesmoke;
     cursor: pointer;
