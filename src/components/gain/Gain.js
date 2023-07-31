@@ -16,17 +16,17 @@ const Gain = () => {
       <div className='gain-grid'>
         <div className="grid a">
         <img src={Learn} alt="Learn" />
-        <h1>Learn from the best</h1>
+        <h4>Learn from the best</h4>
         <p>Learn from top mentors and experts curated specially to make learning easy and fun for you.</p>
         </div>
         <div className='grid b'>
         <img src={Experience} alt="Experience" />
-          <h1>Real time experience</h1>
+          <h4>Real time experience</h4>
           <p>Gain Hands on experience throughout your internship program. Assessments will be given after each class.</p>
         </div>
         <div className="grid c">
         <img src={Earn} alt="Earn" />
-        <h1>Earn as you learn</h1>
+        <h4>Earn as you learn</h4>
         <p>keep SAPA away by accessing job opportunities to earn while still in school and build your work experience history before graduation</p>
         </div>
       </div>
