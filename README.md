@@ -1,5 +1,5 @@
 # Getting Started with Create React App
-
+Rumoney is an African learning provider and marketplace for marketing talents
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
