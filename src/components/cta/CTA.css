@@ -16,20 +16,7 @@
         text-align: center;
     }
     
-    .cta button {
-        width: 20%;
-        height: 8vh;
-        font-size: larger;
-        font-weight: 600;
-        margin-left: 40%;
-        margin-bottom: 3rem;
-        font-family: 'Montserrat', sans-serif;
-        border-radius: 0.4rem;
-        border-color: #F8A663;
-        color: whitesmoke;
-        cursor: pointer;
-        background: linear-gradient(277.87deg, #F47A15 -2.6%, #F8A663 100%);
-    }
+  
     
     @media screen and (max-width: 767px) {
         .cta h1 {
@@ -38,10 +25,5 @@
             line-height: 40px;
             padding-top: 2rem;
         }
-        .cta button {
-            width: 48%;
-            height: 5vh;
-            margin-left: 25%;
-            border-radius: 1px;
-        }
+       
     }

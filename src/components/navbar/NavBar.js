@@ -2,11 +2,10 @@ import React, { useState } from 'react';
 import {Link} from 'react-router-dom';
 import {NavLink} from 'react-router-dom';
 import './NavBar.css';
-import Dropdown from './DropDown';
 import Logo from '../../assets/icons/logo.svg';
 function Navbar() {
   const [click, setClick] = useState(false);
-  const [dropdown, setDropdown] = useState(false);
+  const [setDropdown] = useState(false);
 
   const handleClick = () => setClick(!click);
   const closeMobileMenu = () => setClick(false);
@@ -69,9 +68,8 @@ function Navbar() {
               className='nav-links'
               onClick={closeMobileMenu}
             >
-              About Us <i className='fas fa-caret-down' />
+              About Us 
             </NavLink>
-            {dropdown && <Dropdown />}
           </li>
           <li className='nav-item'>
             <a activeClassName="active"

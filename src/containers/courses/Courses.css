@@ -41,19 +41,6 @@
     margin: 1rem 2rem;
 }
 
-.courses-button1 {
-    width: 130px;
-    height: 37px;
-    margin-right: 1rem;
-    margin-left: 2rem;
-    font-family: 'Montserrat', sans-serif;
-    border-width: 1px;
-    border-radius: 0.4rem;
-    border-color: #F8A663;
-    color: whitesmoke;
-    cursor: pointer;
-    background: linear-gradient(277.87deg, #F47A15 -2.6%, #F8A663 100%);
-}
 
 .hero-image {
     flex: 1;
@@ -106,13 +93,7 @@
         margin-left: 3rem;
         padding-top: 1rem;
     }
-    .courses-button1 {
-        width: 20%;
-        height: 5vh;
-        margin-right: 0.5rem;
-        border-width: 1px;
-        margin-top: 1rem;
-    }
+  
 }
 
 @media screen and (max-width: 750px) {
@@ -152,12 +133,7 @@
         margin-bottom: 1rem;
         width: 70%;
     }
-    .courses-button1 {
-        width: 35%;
-        height: 5vh;
-        margin-right: 0.5rem;
-        border-width: 1px;
-    }
+  
 }
 
 @media screen and (max-width: 415px) {
@@ -197,10 +173,5 @@
         margin-bottom: 1rem;
         width: 80%;
     }
-    .courses-button1 {
-        width: 40%;
-        height: 5vh;
-        margin-right: 0.5rem;
-        border-width: 1px;
-    }
+ 
 }

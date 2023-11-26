@@ -44,22 +44,4 @@
             box-sizing: border-box;
         }
         
-        .cards button {
-            width: 35%;
-            height: 5vh;
-            margin-right: 1rem;
-            margin-top: 1rem;
-            font-family: 'Montserrat', sans-serif;
-            border-radius: 0.4rem;
-            border-color: #F8A663;
-            color: whitesmoke;
-            cursor: pointer;
-            background: linear-gradient(277.87deg, #F47A15 -2.6%, #F8A663 100%);
-        }
-        
-        @media screen and (max-width: 767px) {
-            .cards button {
-                width: 30%;
-                height: 5vh;
-            }
-        }
+  

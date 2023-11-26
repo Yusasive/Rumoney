@@ -82,18 +82,7 @@
         margin: 5rem 0rem 2rem 0rem;
     }
     
-    .unique__content1 button {
-        width: 160px;
-        height: 37px;
-        font-size: large;
-        font-weight: 100;
-        border-radius: 1px;
-        border-color: #F8A663;
-        color: whitesmoke;
-        cursor: pointer;
-        margin: 0.5rem 0 1.5rem 3rem;
-        background: linear-gradient(277.87deg, #F47A15 -2.6%, #F8A663 100%);
-    }
+  
     
     .unique__content1 h1 {
         font-family: 'Montserrat', sans-serif;
@@ -129,20 +118,7 @@
         margin: 1.5rem 0 0.5rem 2rem;
     }
     
-    .unique__content2 button {
-        display: none;
-        width: 160px;
-        height: 37px;
-        font-size: large;
-        font-weight: 100;
-        border-radius: 1px;
-        border-color: #F8A663;
-        color: whitesmoke;
-        cursor: pointer;
-        margin: 0.5rem 0 1.5rem 2rem;
-        background: linear-gradient(277.87deg, #F47A15 -2.6%, #F8A663 100%);
-    }
-    
+  
     .prosperity {
         width: 500px;
         height: 500px;
@@ -162,19 +138,7 @@
         position: relative;
         margin: 5rem 0rem 2rem 0rem;
     }
-    
-    .unique__sme__content1 button {
-        width: 160px;
-        height: 37px;
-        font-size: large;
-        font-weight: 100;
-        border-radius: 1px;
-        border-color: #F8A663;
-        color: whitesmoke;
-        cursor: pointer;
-        margin: 0.5rem 0 1.5rem 3rem;
-        background: linear-gradient(277.87deg, #F47A15 -2.6%, #F8A663 100%);
-    }
+ 
     
     .unique__sme__content1 h1 {
         font-family: 'Montserrat', sans-serif;
@@ -210,19 +174,7 @@
         margin: 1.5rem 4rem 0.5rem 2rem;
     }
     
-    .unique__sme__content2 button {
-        display: none;
-        width: 160px;
-        height: 37px;
-        font-size: large;
-        font-weight: 100;
-        border-radius: 1px;
-        border-color: #F8A663;
-        color: whitesmoke;
-        cursor: pointer;
-        margin: 0.5rem 0 1.5rem 2rem;
-        background: linear-gradient(277.87deg, #F47A15 -2.6%, #F8A663 100%);
-    }
+ 
     
     .omale {
         width: 500px;
@@ -276,9 +228,7 @@
             display: inline;
             height: 100%;
         }
-        .unique__content1 button {
-            display: none;
-        }
+     
         .unique__content1 h1 {
             text-align: center;
             margin: auto;
@@ -295,11 +245,7 @@
             text-align: left;
             margin: 1rem;
         }
-        .unique__content2 button {
-            width: 50%;
-            height: 5vh;
-            display: block;
-        }
+     
         .prosperity {
             margin-top: 5rem;
             height: 80%;
@@ -310,9 +256,7 @@
             display: inline;
             height: 100%;
         }
-        .unique__sme__content1 button {
-            display: none;
-        }
+     
         .unique__sme__content1 h1 {
             text-align: center;
             margin: auto;
@@ -329,11 +273,7 @@
             text-align: left;
             margin: 1rem;
         }
-        .unique__sme__content2 button {
-            width: 50%;
-            height: 5vh;
-            display: inline;
-        }
+       
         .omale {
             margin-top: 5rem;
             height: 80%;

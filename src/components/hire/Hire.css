@@ -41,19 +41,7 @@
         margin: 1rem 2rem;
     }
     
-    .hire-button1 {
-        width: 130px;
-        height: 37px;
-        margin-right: 1rem;
-        margin-left: 2rem;
-        font-family: 'Montserrat', sans-serif;
-        border-width: 1px;
-        border-radius: 0.4rem;
-        border-color: #F8A663;
-        color: whitesmoke;
-        cursor: pointer;
-        background: linear-gradient(277.87deg, #F47A15 -2.6%, #F8A663 100%);
-    }
+   
     
     .hire-image {
         flex: 1;
@@ -116,13 +104,7 @@
             margin-bottom: 1rem;
             width: 80%;
         }
-        .hire-button1 {
-            width: 37%;
-            height: 18%;
-            margin-right: 0.5rem;
-            border-width: 1px;
-            margin-top: 0.2rem;
-        }
+     
     }
     
     @media screen and (max-width: 1024px) {
@@ -159,12 +141,7 @@
             margin-bottom: 1rem;
             width: 70%;
         }
-        .hire-button1 {
-            width: 35%;
-            height: 5vh;
-            margin-right: 0.5rem;
-            border-width: 1px;
-        }
+      
     }
     
     @media screen and (max-width: 750px) {
@@ -204,12 +181,8 @@
             margin-bottom: 1rem;
             width: 70%;
         }
-        .hire-button1 {
-            width: 35%;
-            height: 5vh;
-            margin-right: 0.5rem;
-            border-width: 1px;
-        }
+      
+        
     }
     
     @media screen and (max-width: 415px) {
